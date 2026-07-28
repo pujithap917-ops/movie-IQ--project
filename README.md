@@ -18,3 +18,5 @@ MovieIQ is a data-driven web application and dashboard that predicts movie succe
    ```bash
    pip install -r requirements.txt
    streamlit run app.py
+   import pickle
+model = pickle.load(open('model.pkl', 'rb'))
