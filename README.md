@@ -17,3 +17,4 @@ MovieIQ is a data-driven web application and dashboard that predicts movie succe
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+   streamlit run app.py
