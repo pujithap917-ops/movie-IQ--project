@@ -49,6 +49,6 @@ fig3 = px.histogram(
     nbins=20,
     title="Movie Ratings Distribution"
 )
-st.plotly_chart(fig3, use_container_width=True)
+st.plotly_chart(fig3, use_container_width=True
 
 
